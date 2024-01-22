@@ -1,0 +1,29 @@
+.body {
+    background-color:darkred;
+}
+
+.navbar{
+    background-color: #f1ebcc;
+
+}
+.error-title{
+    padding-left:20vw;
+    padding-top:10vw;
+    font-size:3vw;
+    color: #f1ebcc;
+}
+.message{
+    padding-left:29vw;
+    padding-top:10vw;
+    font-size:3vw;
+    color: #f1ebcc;
+}
+
+footer{
+    color: #f1ebcc;
+    display: flex;
+    padding-left: 35vw;
+    width: 100%;
+    height: auto;
+    font-size: 2vw;
+}

@@ -1,0 +1,78 @@
+body {
+    background-color:darkred;
+}
+
+.navbar{
+    background-color: #f1ebcc;
+
+}
+.logo-index{
+    font-family: 'Great Vibes', cursive;
+    font-size: 7vw;
+    padding-top: 100px;
+    color: #f1ebcc;
+}
+.buttons{
+    display:flex;
+    padding-left:10vw;
+}
+.logo{
+    display: flex;
+    padding-left: 1vw;
+    color: darkred;
+}
+.login-index{
+    font-family: 'Great Vibes', cursive;
+    padding-top: 10px;
+    padding-left: 10vw;
+    padding-right:10vw;
+    margin-right:10px;
+    color: darkred;
+    border:none;
+    outline: none;
+    background-color: #f1ebcc;
+    font-size: 4vw;
+    border-radius: 20vw;
+    text-decoration: none;
+
+}
+.register-index{
+    font-family: 'Great Vibes', cursive;
+    padding-top: 10px;
+    padding-left: 10vw;
+    padding-right:10vw;
+    color: darkred;
+    border:none;
+    outline: none;
+    background-color: #f1ebcc;
+    font-size: 4vw;
+    border-radius: 20vw;
+    text-decoration: none;
+}
+@media{
+    .login-index{
+        margin: 100px auto;
+        max-width:2560px;
+    }
+    .register-index{
+        margin: 100px auto;
+        max-width:2560px;
+    }
+    .logo-index{
+        margin: 80px auto;
+        max-width:2560px;
+    }
+    .footer{
+        padding-left:15vw;
+        max-width:2560px;
+    }
+
+}
+footer{
+    color: #f1ebcc;
+    display: flex;
+    padding-left: 20vw;
+    width: 100%;
+    height: auto;
+    font-size: 2vw;
+}
