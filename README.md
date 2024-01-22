@@ -19,6 +19,4 @@ There are some screenshots of the functionality:
 ![Екранна снимка (1029)](https://github.com/Fatme98/Fatma-Osman-employees/assets/69259691/0de9c975-724b-4a31-84e1-03c67d44fb7f)
 ![Екранна снимка (1027)](https://github.com/Fatme98/Fatma-Osman-employees/assets/69259691/fe2f2bcf-d0d7-43a9-82b6-7c05e52ebfd4)
 ![Екранна снимка (1026)](https://github.com/Fatme98/Fatma-Osman-employees/assets/69259691/0fa2f544-4a45-4ea4-a7c5-f46ebb43f4e1)
-![Екранна снимка (1025)](https://github.com/Fatme98/Fatma-Osman-employees/assets/69259691/4c63ec3b-4360-447f-8b8b-e19048e9817d)
-
 ![Екранна снимка (1030)](https://github.com/Fatme98/Fatma-Osman-employees/assets/69259691/d301a742-44c2-4e72-9db5-f919eb1f258d)
