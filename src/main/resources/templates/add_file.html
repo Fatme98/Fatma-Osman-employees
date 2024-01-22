@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Employees</title>
+
+    <link rel="stylesheet" href="/css/add-file.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="body">
+<header>
+    <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/user/logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="upload-box">
+        <h1>Add CSV file</h1>
+        <form th:action="@{/file/upload}" method="POST" enctype="multipart/form-data">
+            <div>
+                <p class="ui-icon-file">Select a CVS file</p>
+                <input type="file" name="file" placeholder="Browse for file" accept=".csv">
+            </div>
+            <input type="submit" name="submit" value="Add file">
+        </form>
+    </div>
+</main>
+<footer>
+    <div class="footer">
+        &copy;2024 Copyright:Employees
+    </div>
+</footer>
+</body>
+</html>

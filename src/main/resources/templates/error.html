@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Employees</title>
+
+    <link rel="stylesheet" href="/css/error.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="body">
+<header>
+    <!--/*@thymesVar id="username" type="username"*/-->
+    <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-right" th:object="${username}">
+                <li><a th:href="@{/home/(username=${username})}"><span class="glyphicon glyphicon-user"></span> Home</a></li>
+                <li><a href="/user/logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <h1 class="error-title">An error occurred while processing your request!</h1>
+    <!--/*@thymesVar id="message" type="message"*/-->
+    <p class="message" th:text="|Oooops: Error: ${message}|"></p>
+</main>
+<footer>
+    <div class="footer">
+        &copy;2024 Copyright:Employees
+    </div>
+</footer>
+</body>
+</html>
